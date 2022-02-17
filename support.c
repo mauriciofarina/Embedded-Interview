@@ -1,5 +1,10 @@
 #include "support.h"
 
+#define LIST_A \
+    { 1, 2, 2, 4, 6, 8, 9 }
+#define LIST_B \
+    { 0, 1, 2, 4, 7, 10, 12, 13, 15, 16, 17 }
+
 static item_t *init_lists(uint32_t list[], uint32_t list_size);
 
 static item_t *init_lists(uint32_t list[], uint32_t list_size) {

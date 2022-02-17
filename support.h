@@ -6,11 +6,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define LIST_A \
-    { 1, 2, 2, 4, 6, 8, 9 }
-#define LIST_B \
-    { 0, 1, 2, 4, 7, 10, 12, 13, 15, 16, 17 }
-
 typedef struct ITEM {
     uint32_t value;
     struct ITEM *next;
